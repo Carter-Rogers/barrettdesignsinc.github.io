@@ -132,7 +132,7 @@
 
                     <div class="w-full flex flex-wrap py-2 mt-10">
 
-                        <div class="w-full flex flex-wrap justify-center items-center">
+                        <div class="hidden md:block w-3/4 flex flex-wrap justify-center items-center">
                             <p class="font-bodoni text-xl text-white md:px-10">Welcome to Barrett Designs! We offer more than just designing beautiful spaces - we bring them to life! As a full-service interior design and general
                                 contracting firm for both residential and commercial spaces, we offer a seamless start-to-finish approach that transforms your home or office with both style and precision. From the initial
                                  concept to final installation, we manage every detail, ensuring a smooth stress-free experience. 
@@ -168,7 +168,55 @@
                                 <br/>
                                 <br/>
                                 
-                            </p>         
+                            </p>     
+                        </div>
+
+                        <div class="w-1/4 hidden md:block">
+                          <img src="../imgs/working.jpeg" class="rounded-full w-full"/> 
+                        </div>
+
+                        
+                        <div class="w-full md:hidden block">
+                          <img src="../imgs/working.jpeg" class="w-full rounded-full"/>
+                        </div>
+
+                        <div class="w-full pt-10 md:hidden block">
+                          <p class="font-bodoni text-xl text-white md:px-10">Welcome to Barrett Designs! We offer more than just designing beautiful spaces - we bring them to life! As a full-service interior design and general
+                            contracting firm for both residential and commercial spaces, we offer a seamless start-to-finish approach that transforms your home or office with both style and precision. From the initial
+                             concept to final installation, we manage every detail, ensuring a smooth stress-free experience. 
+                             <br/>
+                             <br/>
+                             This design approach means you don't have to juggle multiple contractors - we take care of everything. You get a streamlined process, clear communication, and exceptional results, all in one place.
+                             <br/>
+                             <br/>
+                             Let's bring your dream space to life - designed for the way you live!
+                        
+                            <br/>
+                            <br/>
+                            <br/>
+                            <strong class="text-rose text-2xl tracking-widest">RENOVATIONS</strong>
+                            <br/>
+                            Barrett Designs has an experienced team of tradesmen to help create unique remodel designs. Whether refreshing a single space or reimagining
+                             your entire interior, our design expertise ensures a seamless transformation that enhances both function and beauty.
+                             <br/>
+                             During your project, we manage everything including the electrical work, painting, wood works and more.
+                             <br/>
+                             Every renovation is tailored to your vision, ensuring your home reflects your personal style while increasing comfort and value.
+                            <br/>
+                            <br/>
+                            <br/>
+                            <strong class="text-rose text-2xl tracking-widest">NEW CONSTRUCTION</strong>
+                            <br/>
+                            If you have a builder in place to build your new home, I can help you with everything else!
+                            <br/>
+                            Through a series of consultations and selectino meetings, I can assist you with your floor plan and/or architectural drawings, cabinet design, paint colors, flooring, tile, countertops, lighting & hardware decisions.
+                            <br/>
+                            The devil is in the details, and it is these details that can make your home look thoughtfully and intentionally designed.
+                            <br/>
+                            <br/>
+                            <br/>
+                            
+                        </p>     
                         </div>
 
 
@@ -196,20 +244,20 @@
                 </div>
             </div>
 
-            <div class="flex flex-col items-center pt-20">
-                <form class="w-full max-w-lg">
+            <div class="flex flex-col items-center pt-20 min-w-[40%]">
+                <form class="w-full max-w-lg font-cormorant" id="project_inquiry_form">
                     <div class="flex flex-wrap -mx-3 mb-6">
                       <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                         <label class="block uppercase tracking-wide text-mintjulep text-xs font-bold mb-2" for="grid-first-name">
                           First Name
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200 text-mintjulep border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+                        <input class="appearance-none block w-full bg-gray-200 text-black border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="fName" type="text" name="fName" placeholder="Jane">
                       </div>
                       <div class="w-full md:w-1/2 px-3">
                         <label class="block uppercase tracking-wide text-mintjulep text-xs font-bold mb-2" for="grid-last-name">
                           Last Name
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200 text-mintjulep border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
+                        <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="lName" type="text" name="lName" placeholder="Doe">
                       </div>
                     </div>
                     <div class="flex flex-wrap -mx-3 mb-6">
@@ -217,7 +265,7 @@
                         <label class="block uppercase tracking-wide text-mintjulep text-xs font-bold mb-2" for="grid-password">
                           Email Address
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200 text-mintjulep border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="email" placeholder="your-email@provider.com">
+                        <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="fEmail" type="email" name="fEmail" placeholder="your-email@provider.com">
                       </div>
                     </div>
                     <div class="flex flex-wrap -mx-3 mb-6">
@@ -225,7 +273,7 @@
                           <label class="block uppercase tracking-wide text-mintjulep text-xs font-bold mb-2" for="grid-password">
                             Phone Number
                           </label>
-                          <input class="appearance-none block w-full bg-gray-200 text-mintjulep border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="phone" placeholder="(000)-000-0000">
+                          <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="fPhone" type="text" name="fPhone" placeholder="(000)-000-0000">
                         </div>
                       </div>
                       <div class="flex flex-wrap -mx-3 mb-6">
@@ -233,7 +281,7 @@
                           <label class="block uppercase tracking-wide text-mintjulep text-xs font-bold mb-2" for="grid-password">
                             Project Address
                           </label>
-                          <input class="appearance-none block w-full bg-gray-200 text-mintjulep border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="address" placeholder="123 Any Street, Town, State, Zipcode">
+                          <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="fAddress" type="text" name="fAddress" placeholder="123 Any Street, Town, State, Zipcode">
                         </div>
                       </div>
                       <div class="flex flex-wrap -mx-3 mb-6">
@@ -241,7 +289,7 @@
                           <label class="block uppercase tracking-wide text-mintjulep text-xs font-bold mb-2" for="grid-password">
                             How long do you plan to stay in the home?
                           </label>
-                          <input class="appearance-none block w-full bg-gray-200 text-mintjulep border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="text">
+                          <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="fDuration" name="fDuration" type="text">
                         </div>
                       </div>
                       <div class="flex flex-wrap -mx-3 mb-6">
@@ -249,7 +297,7 @@
                           <label class="block uppercase tracking-wide text-mintjulep text-xs font-bold mb-2" for="grid-password">
                             Describe the areas in your home you would like design asssitance with
                           </label>
-                          <input class="appearance-none block w-full bg-gray-200 text-mintjulep border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="text" placeholder="">
+                          <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="fAssistance" type="text" name="fAssistance" placeholder="">
                         </div>
                       </div>
                       <div class="flex flex-wrap -mx-3 mb-6">
@@ -257,7 +305,7 @@
                           <label class="block uppercase tracking-wide text-mintjulep text-xs font-bold mb-2" for="grid-password">
                             What design styles do you gravitate to?
                           </label>
-                          <input class="appearance-none block w-full bg-gray-200 text-mintjulep border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="text" placeholder="(i.e., Art Deco, Bohemian, Traditional)">
+                          <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="fDesignStyle" type="text" name="fDesignStyle" placeholder="(i.e., Art Deco, Bohemian, Traditional)">
                         </div>
                       </div>
                       <div class="flex flex-wrap -mx-3 mb-6">
@@ -265,7 +313,7 @@
                           <label class="block uppercase tracking-wide text-mintjulep text-xs font-bold mb-2" for="grid-password">
                             Are there any special needs that need to be considered (i.e. handicap accessibility)?
                         </label>
-                          <input class="appearance-none block w-full bg-gray-200 text-mintjulep border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="text" placeholder="">
+                          <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="fSpecialNeeds" type="text" name="fSpecialNeeds" placeholder="">
                         </div>
                       </div>
                       <div class="flex flex-wrap -mx-3 mb-6">
@@ -273,7 +321,7 @@
                           <label class="block uppercase tracking-wide text-mintjulep text-xs font-bold mb-2" for="grid-password">
                             What is the time frame of your project, and if so what would be your ideal completion date?
                         </label>
-                          <input class="appearance-none block w-full bg-gray-200 text-mintjulep border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="text" placeholder="">
+                          <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="fTimeline" type="text" name="fTimeline" placeholder="">
                         </div>
                       </div>
                     <div class="flex flex-wrap -mx-3 mb-2">
@@ -281,14 +329,14 @@
                         <label class="block uppercase tracking-wide text-mintjulep text-xs font-bold mb-2" for="grid-city">
                           Square Feet of Home
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200 text-mintjulep border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="number" placeholder="00">
+                        <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="fSquareFeet" type="number" name="fSquareFeet" placeholder="00">
                       </div>
                       <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
                         <label class="block uppercase tracking-wide text-mintjulep text-xs font-bold mb-2" for="grid-state">
                           Method of Contact
                         </label>
                         <div class="relative">
-                          <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-mintjulep py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-moc">
+                          <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-black py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="fContactMethod" name="fContactMethod">
                             <option>Phone</option>
                             <option>Email</option>
                           </select>
@@ -301,11 +349,11 @@
                         <label class="block uppercase tracking-wide text-mintjulep text-xs font-bold mb-2" for="grid-zip">
                           Age of Home
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200 text-mintjulep border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="number" placeholder="0">
+                        <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="fHomeAge" name="fHomeAge" type="number" placeholder="0">
                       </div>
 
                       <div class="w-full px-3 text-center pt-10">
-                        <button type="submit" class="bg-rose text-mintjulep px-3 py-2 rounded-lg text-2xl font-cormorant hover:bg-mintjulep hover:text-rose duration-300">Submit Form</button>
+                        <button id="fSubmit" type="submit" class="bg-rose text-mintjulep px-3 py-2 rounded-lg text-2xl font-cormorant hover:bg-mintjulep hover:text-rose duration-300">Submit Form</button>
                       </div>
                       
                     </div>
@@ -394,6 +442,39 @@
         </div>
 
     </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+        emailjs.init({
+          publicKey: "6XPv_li1jERMhinTb",
+        });
+      })();
+
+      
+const btn = document.getElementById('fSubmit');
+
+document.getElementById('project_inquiry_form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'service_kz1punq';
+   const templateID = 'template_qj2727f';
+   const publicKey = '6XPv_li1jERMhinTb';
+
+   emailjs.sendForm(serviceID, templateID, this, publicKey)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
+
+    </script>
 
 </body>
 
