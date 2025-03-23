@@ -813,8 +813,44 @@ video {
   background-image: url('../imgs/image19.jpeg');
 }
 
+.bg-\[url\(\'\.\.\/imgs\/cover-image\.png\'\)\] {
+  background-image: url('../imgs/cover-image.png');
+}
+
+.bg-\[url\(\'\.\.\/imgs\/image7\.jpeg\'\)\] {
+  background-image: url('../imgs/image7.jpeg');
+}
+
+.bg-\[url\(\'\.\.\/imgs\/archive2\.jpeg\'\)\] {
+  background-image: url('../imgs/archive2.jpeg');
+}
+
+.bg-\[url\(\'\.\.\/imgs\/cover\=\.jpeg\'\)\] {
+  background-image: url('../imgs/cover=.jpeg');
+}
+
+.bg-\[url\(\'\.\.\/imgs\/image23\.jpeg\'\)\] {
+  background-image: url('../imgs/image23.jpeg');
+}
+
+.bg-\[url\(\'\.\.\/imgs\/image23\.png\'\)\] {
+  background-image: url('../imgs/image23.png');
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-bottom {
+  background-position: bottom;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .fill-current {
@@ -988,6 +1024,11 @@ video {
   letter-spacing: 0.1em;
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
 .text-mintjulep {
   --tw-text-opacity: 1;
   color: rgb(242 235 196 / var(--tw-text-opacity, 1));
@@ -1001,11 +1042,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .underline {
