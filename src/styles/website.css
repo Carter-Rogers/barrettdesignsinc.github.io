@@ -809,48 +809,20 @@ video {
   --tw-bg-opacity: 0.6;
 }
 
-.bg-\[url\(\'\.\.\/imgs\/image19\.jpeg\'\)\] {
-  background-image: url('../imgs/image19.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/imgs\/cover-image\.png\'\)\] {
-  background-image: url('../imgs/cover-image.png');
-}
-
-.bg-\[url\(\'\.\.\/imgs\/image7\.jpeg\'\)\] {
-  background-image: url('../imgs/image7.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/imgs\/archive2\.jpeg\'\)\] {
-  background-image: url('../imgs/archive2.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/imgs\/cover\=\.jpeg\'\)\] {
-  background-image: url('../imgs/cover=.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/imgs\/image23\.jpeg\'\)\] {
-  background-image: url('../imgs/image23.jpeg');
-}
-
-.bg-\[url\(\'\.\.\/imgs\/image23\.png\'\)\] {
-  background-image: url('../imgs/image23.png');
-}
-
-.bg-contain {
-  background-size: contain;
+.bg-\[url\(\'\.\.\/imgs\/IMG_1685\.jpeg\'\)\] {
+  background-image: url('../imgs/IMG_1685.jpeg');
 }
 
 .bg-cover {
   background-size: cover;
 }
 
-.bg-bottom {
-  background-position: bottom;
-}
-
 .bg-center {
   background-position: center;
+}
+
+.bg-bottom {
+  background-position: bottom;
 }
 
 .fill-current {
